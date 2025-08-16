@@ -1,0 +1,799 @@
+{
+    "customers": {
+        "columns": [
+            {
+                "cid": 0,
+                "name": "customer_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": true
+            },
+            {
+                "cid": 1,
+                "name": "first_name",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 2,
+                "name": "last_name",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 3,
+                "name": "date_of_birth",
+                "type": "DATE",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 4,
+                "name": "gender",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 5,
+                "name": "mobile_number",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 6,
+                "name": "email",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 7,
+                "name": "address_line1",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 8,
+                "name": "address_line2",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 9,
+                "name": "city",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 10,
+                "name": "state",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 11,
+                "name": "pincode",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 12,
+                "name": "id_type",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 13,
+                "name": "id_number",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 14,
+                "name": "kyc_verified",
+                "type": "BOOLEAN",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 15,
+                "name": "created_at",
+                "type": "DATETIME",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 16,
+                "name": "updated_at",
+                "type": "DATETIME",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            }
+        ],
+        "foreign_keys": []
+    },
+    "sqlite_sequence": {
+        "columns": [
+            {
+                "cid": 0,
+                "name": "name",
+                "type": "",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 1,
+                "name": "seq",
+                "type": "",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            }
+        ],
+        "foreign_keys": []
+    },
+    "branches": {
+        "columns": [
+            {
+                "cid": 0,
+                "name": "branch_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": true
+            },
+            {
+                "cid": 1,
+                "name": "branch_name",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 2,
+                "name": "address",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 3,
+                "name": "city",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 4,
+                "name": "state",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 5,
+                "name": "pincode",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 6,
+                "name": "created_at",
+                "type": "DATETIME",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 7,
+                "name": "updated_at",
+                "type": "DATETIME",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            }
+        ],
+        "foreign_keys": []
+    },
+    "staff": {
+        "columns": [
+            {
+                "cid": 0,
+                "name": "staff_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": true
+            },
+            {
+                "cid": 1,
+                "name": "branch_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 2,
+                "name": "first_name",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 3,
+                "name": "last_name",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 4,
+                "name": "role",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 5,
+                "name": "email",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 6,
+                "name": "phone_number",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 7,
+                "name": "date_joined",
+                "type": "DATE",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 8,
+                "name": "created_at",
+                "type": "DATETIME",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 9,
+                "name": "updated_at",
+                "type": "DATETIME",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            }
+        ],
+        "foreign_keys": [
+            {
+                "id": 0,
+                "seq": 0,
+                "table": "branches",
+                "from_column": "branch_id",
+                "to_column": "branch_id",
+                "on_update": "NO ACTION",
+                "on_delete": "NO ACTION",
+                "match": "NONE"
+            }
+        ]
+    },
+    "loan_products": {
+        "columns": [
+            {
+                "cid": 0,
+                "name": "product_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": true
+            },
+            {
+                "cid": 1,
+                "name": "product_name",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 2,
+                "name": "interest_rate",
+                "type": "REAL",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 3,
+                "name": "tenure_months",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 4,
+                "name": "processing_fee",
+                "type": "REAL",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 5,
+                "name": "created_at",
+                "type": "DATETIME",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 6,
+                "name": "updated_at",
+                "type": "DATETIME",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            }
+        ],
+        "foreign_keys": []
+    },
+    "loan_applications": {
+        "columns": [
+            {
+                "cid": 0,
+                "name": "application_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": true
+            },
+            {
+                "cid": 1,
+                "name": "customer_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 2,
+                "name": "product_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 3,
+                "name": "application_date",
+                "type": "DATE",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 4,
+                "name": "status",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 5,
+                "name": "remarks",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 6,
+                "name": "created_at",
+                "type": "DATETIME",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 7,
+                "name": "updated_at",
+                "type": "DATETIME",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            }
+        ],
+        "foreign_keys": [
+            {
+                "id": 0,
+                "seq": 0,
+                "table": "loan_products",
+                "from_column": "product_id",
+                "to_column": "product_id",
+                "on_update": "NO ACTION",
+                "on_delete": "NO ACTION",
+                "match": "NONE"
+            },
+            {
+                "id": 1,
+                "seq": 0,
+                "table": "customers",
+                "from_column": "customer_id",
+                "to_column": "customer_id",
+                "on_update": "NO ACTION",
+                "on_delete": "NO ACTION",
+                "match": "NONE"
+            }
+        ]
+    },
+    "loans": {
+        "columns": [
+            {
+                "cid": 0,
+                "name": "loan_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": true
+            },
+            {
+                "cid": 1,
+                "name": "application_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 2,
+                "name": "disbursement_date",
+                "type": "DATE",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 3,
+                "name": "principal_amount",
+                "type": "REAL",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 4,
+                "name": "interest_rate",
+                "type": "REAL",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 5,
+                "name": "tenure_months",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 6,
+                "name": "status",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 7,
+                "name": "created_at",
+                "type": "DATETIME",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 8,
+                "name": "updated_at",
+                "type": "DATETIME",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            }
+        ],
+        "foreign_keys": [
+            {
+                "id": 0,
+                "seq": 0,
+                "table": "loan_applications",
+                "from_column": "application_id",
+                "to_column": "application_id",
+                "on_update": "NO ACTION",
+                "on_delete": "NO ACTION",
+                "match": "NONE"
+            }
+        ]
+    },
+    "repayment_schedule": {
+        "columns": [
+            {
+                "cid": 0,
+                "name": "schedule_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": true
+            },
+            {
+                "cid": 1,
+                "name": "loan_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 2,
+                "name": "due_date",
+                "type": "DATE",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 3,
+                "name": "amount_due",
+                "type": "REAL",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 4,
+                "name": "status",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            }
+        ],
+        "foreign_keys": [
+            {
+                "id": 0,
+                "seq": 0,
+                "table": "loans",
+                "from_column": "loan_id",
+                "to_column": "loan_id",
+                "on_update": "NO ACTION",
+                "on_delete": "NO ACTION",
+                "match": "NONE"
+            }
+        ]
+    },
+    "repayments": {
+        "columns": [
+            {
+                "cid": 0,
+                "name": "repayment_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": true
+            },
+            {
+                "cid": 1,
+                "name": "schedule_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 2,
+                "name": "payment_date",
+                "type": "DATE",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 3,
+                "name": "amount_paid",
+                "type": "REAL",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 4,
+                "name": "payment_mode",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            }
+        ],
+        "foreign_keys": [
+            {
+                "id": 0,
+                "seq": 0,
+                "table": "repayment_schedule",
+                "from_column": "schedule_id",
+                "to_column": "schedule_id",
+                "on_update": "NO ACTION",
+                "on_delete": "NO ACTION",
+                "match": "NONE"
+            }
+        ]
+    },
+    "collections": {
+        "columns": [
+            {
+                "cid": 0,
+                "name": "collection_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": true
+            },
+            {
+                "cid": 1,
+                "name": "loan_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 2,
+                "name": "collection_date",
+                "type": "DATE",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 3,
+                "name": "amount_collected",
+                "type": "REAL",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 4,
+                "name": "collector_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            }
+        ],
+        "foreign_keys": [
+            {
+                "id": 0,
+                "seq": 0,
+                "table": "staff",
+                "from_column": "collector_id",
+                "to_column": "staff_id",
+                "on_update": "NO ACTION",
+                "on_delete": "NO ACTION",
+                "match": "NONE"
+            },
+            {
+                "id": 1,
+                "seq": 0,
+                "table": "loans",
+                "from_column": "loan_id",
+                "to_column": "loan_id",
+                "on_update": "NO ACTION",
+                "on_delete": "NO ACTION",
+                "match": "NONE"
+            }
+        ]
+    },
+    "audit_log": {
+        "columns": [
+            {
+                "cid": 0,
+                "name": "log_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": true
+            },
+            {
+                "cid": 1,
+                "name": "table_name",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 2,
+                "name": "record_id",
+                "type": "INTEGER",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 3,
+                "name": "action",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 4,
+                "name": "action_timestamp",
+                "type": "DATETIME",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            },
+            {
+                "cid": 5,
+                "name": "performed_by",
+                "type": "TEXT",
+                "notnull": false,
+                "default_value": null,
+                "is_primary_key": false
+            }
+        ],
+        "foreign_keys": []
+    }
+}
